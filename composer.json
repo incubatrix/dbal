@@ -18,13 +18,8 @@
         }
     },
     "scripts": {
-        "post-install-cmd": [
-            "echo 'Running post-install-cmd...'",
-            "cp vendor/incubatrix/dbal-manager/src/Resources/config/incubatrix_dbal_manager.yaml config/packages/incubatrix_dbal_manager.yaml || echo 'Error copying file!'"
-        ],
-        "post-update-cmd": [
-            "echo 'Running post-update-cmd...'",
-            "cp vendor/incubatrix/dbal-manager/src/Resources/config/incubatrix_dbal_manager.yaml config/packages/incubatrix_dbal_manager.yaml || echo 'Error copying file!'"
-        ]
+        "auto-scripts": {
+            "cp vendor/incubatrix/dbal-manager/src/Resources/config/incubatrix_dbal_manager.yaml config/packages/incubatrix_dbal_manager.yaml": "script"
+        }
     }
 }

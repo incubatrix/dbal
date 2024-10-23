@@ -16,10 +16,5 @@
         "psr-4": {
             "Incubatrix\\DbalManager\\": "src/"
         }
-    },
-    "scripts": {
-        "auto-scripts": {
-            "cp vendor/incubatrix/dbal-manager/src/Resources/config/incubatrix_dbal_manager.yaml config/packages/incubatrix_dbal_manager.yaml": "script"
-        }
     }
 }

@@ -17,9 +17,12 @@
             "Incubatrix\\DbalManager\\": "src/"
         }
     },
-    "extra": {
-        "container": {
-            "dbal_manager": "Incubatrix\\DbalManager\\DependencyInjection\\IncubatrixDbalManagerExtension"
-        }
+    "scripts": {
+        "post-install-cmd": [
+            "Incubatrix\\DbalManager\\Installer::copyConfig"
+        ],
+        "post-update-cmd": [
+            "Incubatrix\\DbalManager\\Installer::copyConfig"
+        ]
     }
 }

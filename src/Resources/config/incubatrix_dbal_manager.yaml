@@ -1,4 +1,8 @@
-dbal_manager:
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
     Incubatrix\DbalManager\MysqlDriver:
         class: Incubatrix\DbalManager\MysqlDriver
 

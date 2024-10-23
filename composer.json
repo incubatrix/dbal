@@ -19,10 +19,10 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "Incubatrix\\DbalManager\\Installer::copyConfig"
+            "cp vendor/incubatrix/dbal-manager/src/Resources/config/incubatrix_dbal_manager.yaml config/packages/incubatrix_dbal_manager.yaml"
         ],
         "post-update-cmd": [
-            "Incubatrix\\DbalManager\\Installer::copyConfig"
+            "cp vendor/incubatrix/dbal-manager/src/Resources/config/incubatrix_dbal_manager.yaml config/packages/incubatrix_dbal_manager.yaml"
         ]
     }
 }

@@ -16,5 +16,10 @@
         "psr-4": {
             "Incubatrix\\DbalManager\\": "src/"
         }
+    },
+    "extra": {
+        "container": {
+            "dbal_manager": "Incubatrix\\DbalManager\\DependencyInjection\\IncubatrixDbalManagerExtension"
+        }
     }
 }

@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Incubatrix\DbalManager;
 
+use Incubatrix\Core\Utils\IdGenerator;
 use Incubatrix\DbalManager\Exception\DbalConstraintException;
 use Incubatrix\DbalManager\Exception\DbalException;
 use Incubatrix\DbalManager\Exception\DbalUniqueConstraintException;
@@ -276,7 +277,7 @@ class DbalManager implements EventSubscriberInterface
 
     private function generateUniqueId(): string
     {
-        return ''; //IdGenerator::id(); //TODO: ????
+        return IdGenerator::id();
     }
 
     private function expandListParameters(array $paramsList, array $whereUpdateBulkFieldList = null): array

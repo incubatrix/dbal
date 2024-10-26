@@ -1,6 +1,6 @@
 {
     "name": "incubatrix/dbal-manager",
-    "description": "Incubatrix DBAL Manager Package",
+    "description": "Incubatrix DBAL Manager Bundle",
     "type": "library",
     "license": "proprietary",
     "require": {
@@ -9,7 +9,9 @@
         "symfony/console": "^6.4",
         "symfony/http-foundation": "^6.4",
         "symfony/event-dispatcher": "^6.4",
-        "incubatrix/core": "dev-main"
+        "incubatrix/core": "dev-main",
+        "symfony/config": "^6.4",
+        "symfony/dependency-injection": "^6.4"
     },
     "repositories": [
         {
@@ -19,7 +21,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Incubatrix\\DbalManager\\": "src/"
+            "Incubatrix\\Dbal\\": "src/"
         }
     }
 }

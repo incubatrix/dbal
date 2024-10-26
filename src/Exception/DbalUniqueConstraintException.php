@@ -1,6 +1,6 @@
 <?php
 
-namespace Incubatrix\DbalManager\Exception;
+namespace Incubatrix\Dbal\Exception;
 
 use Throwable;
 

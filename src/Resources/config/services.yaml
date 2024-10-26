@@ -3,6 +3,6 @@ services:
         autowire: true
         autoconfigure: true
 
-    Incubatrix\DbalManager\:
+    Incubatrix\Dbal\:
         resource: '../../*'
-        exclude: '../../{Resources}'
+        exclude: '../../{DependencyInjection,Exception,Resources}'

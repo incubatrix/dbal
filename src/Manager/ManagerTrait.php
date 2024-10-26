@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Incubatrix\DbalManager;
+namespace Incubatrix\Dbal\Manager;
 
 use Doctrine\DBAL\Result;
-use Incubatrix\DbalManager\Exception\DbalException;
+use Incubatrix\Dbal\Exception\DbalException;
 
 trait ManagerTrait
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Incubatrix\DbalManager;
+namespace Incubatrix\Dbal\Manager;
 
 use function array_flip;
 use function array_keys;

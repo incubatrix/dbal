@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Incubatrix\DbalManager\Exception;
+namespace Incubatrix\Dbal\Exception;
 
 use Throwable;
 

@@ -2,19 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Incubatrix\DbalManager;
+namespace Incubatrix\Dbal\Manager;
 
-use Incubatrix\Core\Utils\IdGenerator;
-use Incubatrix\DbalManager\Exception\DbalConstraintException;
-use Incubatrix\DbalManager\Exception\DbalException;
-use Incubatrix\DbalManager\Exception\DbalUniqueConstraintException;
-//use App\Utils\Generator\IdGenerator;
 use DateTimeInterface;
 use Doctrine\DBAL\Connection;
 use Doctrine\DBAL\Exception\DriverException;
 use Doctrine\DBAL\Exception\UniqueConstraintViolationException;
 use Doctrine\DBAL\ParameterType;
 use Doctrine\DBAL\Result;
+use Incubatrix\Core\Utils\IdGenerator;
+use Incubatrix\Dbal\Exception\DbalConstraintException;
+use Incubatrix\Dbal\Exception\DbalException;
+use Incubatrix\Dbal\Exception\DbalUniqueConstraintException;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\ConsoleEvents;
 use Symfony\Component\Console\Event\ConsoleCommandEvent;

@@ -1,6 +1,6 @@
 {
-    "name": "incubatrix/dbal-manager",
-    "description": "Incubatrix DBAL Manager Bundle",
+    "name": "incubatrix/dbal",
+    "description": "Incubatrix DBAL Bundle",
     "type": "library",
     "license": "proprietary",
     "require": {
